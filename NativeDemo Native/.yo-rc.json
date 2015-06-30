@@ -1,0 +1,1 @@
+{"dependsOn":["generator-NativeScript@0.0.7"],"generator-NativeScript":{"cleanup":["./app/providers/defaultProvider-data-provider.js","./app/components/home/","./app/components/authenticationView/"]}}

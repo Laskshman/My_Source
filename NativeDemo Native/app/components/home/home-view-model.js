@@ -1,5 +1,5 @@
 'use strict';
-var ViewModel,
+var ViewModel, 
     Observable = require('data/observable').Observable;
 
 ViewModel = new Observable({

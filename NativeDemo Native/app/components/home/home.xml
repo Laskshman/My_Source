@@ -8,5 +8,5 @@
             </GridLayout>
             <!-- additional view content -->
         </StackLayout>
-    </GridLayout>
+    </GridLayout>    
 </Page>

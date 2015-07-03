@@ -18,7 +18,8 @@ ViewModel = new Observable({
         register: 'register',
         showRegister: 'showRegister',
         showSignin: 'showSignin',
-        signin: 'signin'
+        signin: 'signin',
+        logout: 'logout'
     },
 
     onSignin: function() {
@@ -41,6 +42,11 @@ ViewModel = new Observable({
             password: this.get('password'),
             email: this.get('email')
         });
+    },
+    onLogout: function(){
+         this.notify({
+            eventName: this.events.logout          
+        });       
     },
 
     onShowSignin: function() {

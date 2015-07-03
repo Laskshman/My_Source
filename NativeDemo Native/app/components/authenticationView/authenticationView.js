@@ -60,6 +60,9 @@ function onShowRegister() {
 function onShowSignin() {
     viewModel.onShowSignin();
 }
+function onLogout() {
+    viewModel.onLogout();
+}
 
 // additional functions
 function pageLoaded(args) {
@@ -77,6 +80,8 @@ function pageLoaded(args) {
         viewModel.on(viewModel.events.register, onRegister);
         viewModel.on(viewModel.events.showRegister, onShowRegister);
         viewModel.on(viewModel.events.showSignin, onShowSignin);
+        viewModel.on(viewModel.events.Logout, onLogout);
+        
 
         // additional pageInit
     }

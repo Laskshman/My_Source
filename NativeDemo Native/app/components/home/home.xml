@@ -3,6 +3,9 @@
     <GridLayout rows="auto, *">
         <widgets:action-bar />
         <StackLayout row="1">
+            <GridLayout rows="auto, *" cssClass="form-buttons">
+                <widgets:button text="Log out" tap="{{ onLogout }}" />                
+            </GridLayout>
             <!-- additional view content -->
         </StackLayout>
     </GridLayout>

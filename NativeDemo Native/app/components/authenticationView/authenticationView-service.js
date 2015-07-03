@@ -45,6 +45,10 @@ Service.prototype.register = function(args, successCallback, errorCallback) {
         .then(successCallback, errorCallback);
 };
 
+Service.prototype.logout = function() {
+   return dataService.Users.logout();
+};
+
 Service.prototype.getCurrentUser = function() {
     return dataService.Users.currentUser();
 };

@@ -5,6 +5,16 @@ var ViewModel,
 ViewModel = new Observable({
 
     pageTitle: 'Home',
+    events: {        
+        logout: 'logout'
+    },
+    
+    onLogout: function(){
+         this.notify({
+            eventName: this.events.logout          
+        });       
+    },
+    
     // additional properties
 });
 

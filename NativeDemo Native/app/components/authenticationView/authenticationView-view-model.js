@@ -4,6 +4,8 @@ var ViewModel,
 
 ViewModel = new Observable({
 
+    backButtonHidden: true,
+
     pageTitle: 'Authentication',
 
     signinVisibility: 'visible',

@@ -1,4 +1,4 @@
 var application = require('application');
 
-application.mainModule = "components/navigation/navigation";
+application.mainModule = "components/authenticationView/authenticationView";
 application.start();

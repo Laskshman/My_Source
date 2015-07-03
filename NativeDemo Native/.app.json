@@ -42,11 +42,12 @@
       "title": "DefaultProvider",
       "source": "everlive",
       "everliveKey": "vHav5riKi5AqSbnf",
+      "everliveUrl": "//platform.telerik.com/bs-api/v1/",
       "offlineStorage": false
     }
   ],
   "name": "nativeScriptApp",
-  "navigation": "listmenu",
-  "transition": "none",
+  "navigation": "none",
+  "view": "authenticationView",
   "skin": "native"
 }
